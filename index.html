@@ -1,0 +1,50 @@
+<html>
+   <head>
+        <script type="text/javascript" src="Blackout.js"></script>
+        <meta charset = "utf-8">
+        <title>Competition Website</title>
+        <link rel="icon" href="https://is4-ssl.mzstatic.com/image/thumb/Purple127/v4/43/3c/3c/433c3c31-1608-8dee-6aef-dc4cabd43a99/DiskSpeedTest.png/1200x630bb.jpg" type="image/jpg">
+        <meta name="viewpoint" content="width=device-width; initial-scale=1; maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+        <script src="https:code.jquery.com/jquery-3.2.1.js"></script>
+        <script type="text/javascript">
+            $(window).on('scroll', function(){
+                if($(window).scrollTop()){
+                    $('nav').addClass('black');
+                } 
+                else{
+                    $('nav').removeClass('black');
+                }
+            })
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+            <nav>
+                <div class="Title">FEATURED GAMES</div>
+                <a href="#" id="menu-icon"></a>
+                <ul>
+                    <li><a class="active" href="#Website">HOME</a></li>
+                    <li><a class="active1" href="#Blackout">BLACKOUT</a></li>
+                    <li><a class="active2" href="#">SENTINEL</a></li>
+                    <li><a class="active3" href="#"> KILLSWITCH</a></li>
+                </ul>
+            </nav>
+            <section class="sec1"></section>
+            <section class="content">
+                <p>Website made by Rishi J. using JQuery, HTML, and CSS.
+                </p>
+                <p>Blackout - Created In Javascript for Computer Science Club, destroy bricks, all 130, watch out for the occasional darkening of your screen.
+                </p>
+                <p>WIP Sentinel - Game Idea, In Javascript for Computer Science Club, intermediate, choose a subclass, unlock new ones, defend your base, updates inbound.
+                </p>
+                <p>WIP Killswitch - Game Idea, In Javascript for Computer Science Club, advanced, choose a character, unlock new ones, go  on quests or try endless mode and kill waves of enemies attacking you or attack them yourself, you switch to whoever you kill, updates inbound.
+                </p>
+            </section>
+            </div>
+        </header>
+        <script src="Blackout.js"></script>
+    </body>
+</html>
